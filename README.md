@@ -1,5 +1,11 @@
 # Spectre.css notes
 
+# Spectre.css source
+* [spectre.css](https://github.com/picturepan2/spectre/blob/master/docs/dist/spectre.css)
+* [spectre-exp.css (experimentals)](https://github.com/picturepan2/spectre/blob/master/docs/dist/spectre-exp.css)
+* [dist directory](https://github.com/picturepan2/spectre/tree/master/docs/dist)
+* [spectre.scss](https://github.com/picturepan2/spectre/blob/master/src/spectre.scss)
+
 # Official docs
 
 * [Elements](https://picturepan2.github.io/spectre/elements.html)
