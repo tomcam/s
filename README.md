@@ -9,6 +9,8 @@
 # Official docs
 
 * [Elements](https://picturepan2.github.io/spectre/elements.html)
+* [Layout](https://picturepan2.github.io/spectre/layout.html)
+  * [Navbar](https://picturepan2.github.io/spectre/layout.html#navbar)
 * [Components](https://picturepan2.github.io/spectre/components.html)
   * [Tabs](https://picturepan2.github.io/spectre/components.html#tabs)
 * [Utilities](https://picturepan2.github.io/spectre/utilities.html)
