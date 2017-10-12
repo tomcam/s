@@ -27,17 +27,17 @@
 I think my navbar is semantically better than theirs:
 
 ```html
-		<header class="navbar" style="margin-top: 3rem;" >
-			<!-- Logo on the left -->
-			<div class="navbar-section">	
-				<a href="#" class="navbar-brand">Project name</a>
-			</div>
-			<div class="navbar-section">	
-				<a href="#" class="btn btn-link selected">Home</a>
-				<a href="#" class="btn btn-link">About</a> 
-				<a href="#" class="btn btn-link">Contact</a> 
-			</div>
-		</header><!-- .navbar -->
+<header class="navbar" style="margin-top: 3rem;" >
+	<!-- Logo on the left -->
+	<div class="navbar-section">	
+		<a href="#" class="navbar-brand">Project name</a>
+	</div>
+	<div class="navbar-section">	
+		<a href="#" class="btn btn-link selected">Home</a>
+		<a href="#" class="btn btn-link">About</a> 
+		<a href="#" class="btn btn-link">Contact</a> 
+	</div>
+</header><!-- .navbar -->
 ````
 ## Styles
 
