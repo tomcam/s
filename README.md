@@ -27,7 +27,8 @@
 Style used for a distinguished text element on the navbar, typically indicate a logo or homepag
 
 ## Questions
-* Does the `mr-2` style still exist? See [Navbar example](https://picturepan2.github.io/spectre/layout.html#navbar)
+* It looks like the links in [Navbars](https://picturepan2.github.io/spectre/layout.html#navbar) should be styled using the 
+* Does the `mr-2` style still exist? See [Navbar example](https://picturepan2.github.io/spectre/layout.html#navbar). It seems like it would be in the [Position Utilities](https://picturepan2.github.io/spectre/utilities.html#position) section.
 
 ## Contribution ideas
 * Add a [Tabs](https://picturepan2.github.io/spectre/components.html#tabs) section to table of contents on left nav!
