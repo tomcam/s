@@ -44,7 +44,7 @@
 
 ### .navbar-brand
 
-Style used for a distinguished text element on the navbar, typically indicate a logo or homepag
+Style used for a distinguished text element on the navbar, typically indicate a logo or homepage
 
 ## Questions
 * It looks like the links in [Navbars](https://picturepan2.github.io/spectre/layout.html#navbar) should be styled using the 
