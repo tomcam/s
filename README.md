@@ -24,7 +24,7 @@
 
 ### Navbar
 
-I think my navbar is semantically better than theirs:
+I think my navbar is semantically better than theirs because it avoids using `<section>` tags for formatting purposes:
 
 ```html
 <header class="navbar" style="margin-top: 3rem;" >
