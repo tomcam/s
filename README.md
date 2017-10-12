@@ -1,12 +1,12 @@
 # Spectre.css notes
 
-# Spectre.css source
+## Spectre.css source
 * [spectre.css](https://github.com/picturepan2/spectre/blob/master/docs/dist/spectre.css)
 * [spectre-exp.css (experimentals)](https://github.com/picturepan2/spectre/blob/master/docs/dist/spectre-exp.css)
 * [dist directory](https://github.com/picturepan2/spectre/tree/master/docs/dist)
 * [spectre.scss](https://github.com/picturepan2/spectre/blob/master/src/spectre.scss)
 
-# Official docs
+## Official docs
 
 * [Elements](https://picturepan2.github.io/spectre/elements.html)
 * [Layout](https://picturepan2.github.io/spectre/layout.html)
@@ -20,11 +20,14 @@
   * [Shaped divs](https://picturepan2.github.io/spectre/utilities.html#shapes)
   * [Text](https://picturepan2.github.io/spectre/utilities.html#text)
 
-# Styles
+## Styles
 
 ### .navbar-brand
 
-Style used for a distinguished text element on the navbar, typically indicate a logo or homepage.
+Style used for a distinguished text element on the navbar, typically indicate a logo or homepag
 
-# Contributions
+## Questions
+* Does the `mr-2` style still exist? See [Navbar example](https://picturepan2.github.io/spectre/layout.html#navbar)
+
+## Contribution ideas
 * Add a [Tabs](https://picturepan2.github.io/spectre/components.html#tabs) section to table of contents on left nav!
