@@ -21,6 +21,7 @@
 
 This example shows how to use a horizontal navbar for screen sizes >= 600 and a vertical one when smaller than 600
 
+```html
 		<header class="navbar">
 		
 			<!-- Horizontal navbar for large form-factor, like desktop or wide phone -->
@@ -34,7 +35,7 @@ This example shows how to use a horizontal navbar for screen sizes >= 600 and a 
 			</div>
 			
 			<!-- Vertical nav when form factor is smaller -->
-      <!-- This example omits the Home link just to show the navigations can be different. -->
+			<!-- This example omits the Home link just to show the navigations can be different. -->
 			<!-- show-sm means display when window is <= 600px wide -->
 			<ul class="nav show-sm">
 				<li class="menu-item">
@@ -50,4 +51,4 @@ This example shows how to use a horizontal navbar for screen sizes >= 600 and a 
 			
 			
 		</header><!-- .navbar -->
-	            
+```	            
