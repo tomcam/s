@@ -22,33 +22,35 @@
 This example shows how to use a horizontal navbar for screen sizes >= 600 and a vertical one when smaller than 600
 
 ```html
-		<header class="navbar">
+<header class="navbar">
+
+	<!-- Horizontal navbar for large form-factor, like desktop or wide phone -->
+	<!-- hide-sm means hide when window is <= 600px wide -->
+	<!-- Logo on the left -->
+	<div class="navbar-section hide-sm">	
+		<a onclick="togglePage(this)" href="#" class="navbar-brand">Project name</a>
+	</div>
+	<div class="navbar-section hide-sm">	
+		<a onclick="togglePage(this)" href="#" data-id="home-page" class="btn btn-link selected">Home</a>
+		<a onclick="togglePage(this)" href="#" data-id="about-page" class="btn btn-link">About</a> 
+		<a onclick="togglePage(this)" href="#" data-id="contact-page" class="btn btn-link">Contact</a> 
+	</div>
+	
+	<!-- Vertical nav when form factor is smaller -->
+	<!-- show-sm means display when window is <= 600px wide -->
+	<ul class="nav show-sm">
+		<li class="menu-item">
+			<a onclick="togglePage(this)" href="#" data-id="home-page" class="btn btn-link selected">Home</a>
+		</li>
+		<li class="menu-item">
+			<a onclick="togglePage(this)" href="#" data-id="about-page" class="btn btn-link">About</a> 
+		</li>
+		<li class="menu-item">
+			<a onclick="togglePage(this)" href="#" data-id="contact-page" class="btn btn-link">Contact</a> 
+		</li>
+	</ul>
+	
+	
+</header><!-- .navbar -->
 		
-			<!-- Horizontal navbar for large form-factor, like desktop or wide phone -->
-			<!-- hide-sm means hide when window is <= 600px wide -->
-			<!-- Logo on the left -->
-			<div class="navbar-section hide-sm">	
-				<a onclick="togglePage(this)" href="#" class="navbar-brand">Project name</a>
-				<a onclick="togglePage(this)" href="#" data-id="home-page" class="btn btn-link selected">Home</a>
-				<a onclick="togglePage(this)" href="#" data-id="about-page" class="btn btn-link">About</a> 
-				<a onclick="togglePage(this)" href="#" data-id="contact-page" class="btn btn-link">Contact</a> 
-			</div>
-			
-			<!-- Vertical nav when form factor is smaller -->
-			<!-- This example omits the Home link just to show the navigations can be different. -->
-			<!-- show-sm means display when window is <= 600px wide -->
-			<ul class="nav show-sm">
-				<li class="menu-item">
-					<a onclick="togglePage(this)" href="#" data-id="home-page" class="btn btn-link selected">Home</a>
-				</li>
-				<li class="menu-item">
-					<a onclick="togglePage(this)" href="#" data-id="about-page" class="btn btn-link">About</a> 
-				</li>
-				<li class="menu-item">
-					<a onclick="togglePage(this)" href="#" data-id="contact-page" class="btn btn-link">Contact</a> 
-				</li>
-			</ul>
-			
-			
-		</header><!-- .navbar -->
 ```	            
