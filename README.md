@@ -20,26 +20,12 @@
   * [Shaped divs](https://picturepan2.github.io/spectre/utilities.html#shapes)
   * [Text](https://picturepan2.github.io/spectre/utilities.html#text)
 
+## My docs
+
+* [Navbar](navbar.md)
+
 ## Layout
 
-### Navbar
-
-* Their navbar is horizontal and meant for headers only. They don't have a vertical style for left-side navbars.
-* I think my navbar is semantically better than theirs because it avoids using `<section>` tags for formatting purposes:
-
-```html
-<header class="navbar" style="margin-top: 3rem;" >
-	<!-- Logo on the left -->
-	<div class="navbar-section">	
-		<a href="#" class="navbar-brand">Project name</a>
-	</div>
-	<div class="navbar-section">	
-		<a href="#" class="btn btn-link selected">Home</a>
-		<a href="#" class="btn btn-link">About</a> 
-		<a href="#" class="btn btn-link">Contact</a> 
-	</div>
-</header><!-- .navbar -->
-````
 ## Styles
 
 ### .navbar-brand
