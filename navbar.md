@@ -50,7 +50,6 @@ This example shows how to use a horizontal navbar for screen sizes >= 600 and a 
 		</li>
 	</ul>
 	
-	
 </header><!-- .navbar -->
 		
 ```	            
