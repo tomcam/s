@@ -5,6 +5,7 @@
 * [spectre-exp.css (experimentals)](https://github.com/picturepan2/spectre/blob/master/docs/dist/spectre-exp.css)
 * [dist directory](https://github.com/picturepan2/spectre/tree/master/docs/dist)
 * [spectre.scss](https://github.com/picturepan2/spectre/blob/master/src/spectre.scss)
+* [GitHub Issues](https://github.com/picturepan2/spectre/issues)
 
 ## Official docs
 
